@@ -31,9 +31,6 @@ for subdir, dirs, files in os.walk(audio_file_dir):
             filenames.append(file)
             emotions.append(emotion)
 
-import csv
-import itertools
-
 #prepare data to write to csv file
 writestream = []
 writestream.append("filenames;")
