@@ -2,6 +2,7 @@
 import pandas as pd
 from arff2pandas import a2p
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Open the ouput ARFF file containing the features from audio files
 with open('actors.arff') as f:
@@ -48,8 +49,10 @@ X_test = sc.transform(X_test)
 
 # Fitting Random Forest Classification to the Training set
 from sklearn.ensemble import RandomForestClassifier
-classifier = RandomForestClassifier(n_estimators = 1000, criterion = 'entropy')
+classifier = RandomForestClassifier(n_estimators = 100, criterion = 'entropy')
 classifier.fit(X_train, y_train)
+
+
 
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
@@ -97,9 +100,15 @@ X_interviews = sc.transform(X_interviews)
 # Predict the interview results
 y_interview_pred = classifier.predict(X_interviews)
 
+emotions_found = labelencoder_y.inverse_transform(y_interview_pred)
+pred_emotions = pd.DataFrame(emotions_found)
+pred_emotions['file'] = df_interview_all.index
+pred_emotions['team_estimate'] = labelencoder_y.inverse_transform(y_interviews_voice)
+pred_emotions['equal'] = (y_interview_pred == y_interviews_voice)
+
 # Make Confusion Matrix
 from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_interviews_content, y_interview_pred)
+cm = confusion_matrix(y_interviews_voice, y_interview_pred)
 
 
 #Calculate accuracy
@@ -108,5 +117,4 @@ from sklearn.metrics import accuracy_score
 accuracy_score(y_interviews_content, y_interview_pred)
 #Predict voice based results
 accuracy_score(y_interviews_voice, y_interview_pred)
-
 

@@ -18,6 +18,7 @@ df_emotions.set_index('filenames',inplace=True,drop=True)
 # Join dataset for emotions (dependent variable) with features
 df_all = df_emotions.join(df_features, how = 'inner')
 
+
 # Set independent variables (X) and dependent variable (y)
 X = df_all.iloc[:, 1:-1].values
 y = df_emotions.iloc[:, 0].values
@@ -108,7 +109,7 @@ y_interview_pred = classifier.predict(X_interviews)
 
 # Make Confusion Matrix
 from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_interviews_content, y_interview_pred)
+cm = confusion_matrix(y_interviews_voice, y_interview_pred)
 
 
 #Calculate accuracy
@@ -118,22 +119,8 @@ accuracy_score(y_interviews_content, y_interview_pred)
 #Predict voice based results
 accuracy_score(y_interviews_voice, y_interview_pred)
 
-#######Feature Reduction########
-
-#Low variance removal
-##from sklearn.feature_selection import VarianceThreshold 
-##sel = VarianceThreshold(threshold=(.8 * (1 - .8)))
-##X_interviews = sel.fit_transform(X_interviews)
-
-
-
-import matplotlib.pyplot as plt
-
-
-plt.boxplot(X_interviews)
-
-plt.boxplot(X_train)
-
-#import seaborn as sns
-
-#bs = sns.boxplot(x=0, y=)
+emotions_found = labelencoder_y.inverse_transform(y_interview_pred)
+pred_emotions = pd.DataFrame(emotions_found)
+pred_emotions['file'] = df_interview_all.index
+pred_emotions['team_estimate'] = labelencoder_y.inverse_transform(y_interviews_voice)
+pred_emotions['equal'] = (y_interview_pred == y_interviews_voice)
