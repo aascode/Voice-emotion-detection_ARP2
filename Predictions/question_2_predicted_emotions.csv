@@ -1,0 +1,29 @@
+,rf_strongest_emotion,rf_strongness,svm_strongest_emotion,svm_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_2_CUR.wav,angry,0.5833333333333334,fearful,0.8333333333333334,happy,calm
+10-B-GERMANY_2_CUR.wav,happy,0.36363636363636365,fearful,0.9090909090909091,sad,sad
+11-B-GERMANY_2_CUR.wav,calm,0.6,fearful,1.0,sad,sad
+12-B-GERMANY_2_CUR.wav,calm,0.3125,fearful,0.875,sad,neutral
+13-M-INDIA_2_CUR.wav,happy,0.3333333333333333,fearful,0.8333333333333334,happy,happy
+14-M-INDIA_2_CUR.wav,happy,0.391304347826087,fearful,0.8695652173913043,happy,angry
+15-M-INDIA_2_CUR.wav,calm,0.4,fearful,1.0,happy,happy
+17-M-COLOMBIA_2_CUR.wav,angry,0.3888888888888889,fearful,1.0,neutral,neutral
+18-B-GERMANY_2_CUR.wav,angry or sad,0.375,fearful,1.0,fearful,angry
+19-B-GERMANY_2_CUR.wav,happy,0.5,fearful,0.875,neutral,sad
+2-B-CHILE_2_CUR.wav,calm,0.46153846153846156,fearful,0.9230769230769231,angry,angry
+20-B-CHINA_2_CUR.wav,calm,0.6470588235294118,fearful,0.6470588235294118,sad,sad
+21-B-GERMANY_2_CUR.wav,angry or calm or happy or sad,0.2,fearful,0.7333333333333333,neutral,sad
+22-B-PAKISTAN_2_CUR.wav,calm,0.35294117647058826,fearful,0.9411764705882353,neutral,angry
+23-M-IRAN_2_CUR.wav,happy,0.4444444444444444,fearful,0.8888888888888888,happy,happy
+24-M-INDIA_2_CUR.wav,happy,0.5555555555555556,fearful,1.0,happy,neutral
+25-B-GERMANY_2_CUR.wav,happy,0.4444444444444444,fearful,1.0,sad,neutral
+26-B-GERMANY_2_CUR.wav,calm,0.5,fearful or sad,0.5,sad,calm
+27-B-GERMANY_2_CUR.wav,happy,0.5,fearful,0.9,happy,calm
+28-M-INDIA_2_CUR.wav,calm or sad,0.5,fearful,1.0,happy,neutral
+3-B-NIGERIA_2_CUR.wav,calm,0.6,fearful,0.6,happy,calm
+30-B-NEPAL_2_CUR.wav,angry,0.4444444444444444,fearful,0.9444444444444444,angry,angry
+4-M-INDIA_2_CUR.wav,angry or happy,0.3333333333333333,fearful,1.0,happy,happy
+5-M-INDIA_2_CUR.wav,happy,0.3888888888888889,fearful,0.8888888888888888,angry,sad
+6-B-GERMANY_2_CUR.wav,angry,0.4117647058823529,fearful,0.8235294117647058,happy,neutral
+7-B-PAKISTAN_2_CUR.wav,disgust,0.2857142857142857,fearful,0.8316326530612245,neutral,happy
+8-M-NEPAL_2_CUR.wav,calm or disgust,0.2777777777777778,fearful,0.7777777777777778,sad,neutral
+9-M-INDIA_2_CUR.wav,angry,0.5384615384615384,fearful,0.8461538461538461,sad,angry

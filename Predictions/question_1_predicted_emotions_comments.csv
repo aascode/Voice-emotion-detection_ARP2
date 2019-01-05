@@ -1,0 +1,31 @@
+File,rf_strongest_emotion,rf_strongness,svm_strongest_emotion,svm_strongness,Human_Content_Emotion,Human_Voice_Emotion,Prediction reasonable?,Comment
+10-B-GERMANY_1_MET.wav,happy,0.315789474,fearful,0.894736842,sad,angry,no,"She is not happy with the methodology in general, however she laughs cynically, from which the feeling of happiness may be predicted"
+11-B-GERMANY_1_MET.wav,calm or fearful,0.375,fearful,0.875,neutral,sad,yes,"He is talking calmly about the topic, although he is not happy. Fear, however, cannot be recognized."
+12-B-GERMANY_1_MET.wav,sad,0.428571429,fearful,0.857142857,disgust,sad,yes,Same classification in voice.
+13-M-INDIA_1_MET.wav,happy,0.333333333,fearful,0.875,happy,neutral,yes,"Same classification in content. She gives general recommendations not experienced by her, but in a very agitated way."
+14-M-INDIA_1_MET.wav,fearful,0.333333333,fearful,0.916666667,sad,angry,no,"The student thinks about his wording and therefore may sound fearful, but he does not display any fear."
+15-M-INDIA_1_MET.wav,angry or happy,0.285714286,fearful,0.857142857,sad,angry,yes,"Same classification in voice. Happiness, however, could not be felt."
+16-B-GERMANY_1_MET.wav,happy or sad,0.5,fearful,1,neutral,neutral,no,"Prediction is not clear, since happiness and sadness are the complete opposite feelings."
+17-M-COLOMBIA_1_MET.wav,angry or disgust,0.3,fearful,0.95,neutral,neutral,yes,"A display of anger can be recognized, but in form of firmness against the challenges that he promotes. Disgust, however, is detected wrongly due to using interjections."
+18-B-GERMANY_1_MET.wav,angry,0.368421053,fearful,0.947368421,fearful,angry,yes,Same classification in voice.
+19-B-GERMANY_1_MET.wav,sad,0.666666667,fearful,1,happy,neutral,no,No sign of sadness could be recognized.
+1-M-INDIA_1_MET.wav,happy,0.545454545,fearful,0.772727273,happy,calm,yes,"She is happy with the Methodology, but explains this calmly."
+20-B-CHINA_1_MET.wav,calm,0.272727273,fearful,0.818181818,neutral,sad,yes,“Calm” and “Sad” are very close to each other in hearing.
+21-B-GERMANY_1_MET.wav,disgust or sad,0.225806452,fearful,0.741935484,neutral,neutral,yes,"Sadness can be recognized, disgust is probably detected because of interjections."
+22-B-PAKISTAN_1_MET.wav,sad,0.357142857,fearful,0.785714286,sad,neutral,yes,Same classification in content.
+23-M-IRAN_1_MET.wav,happy,0.375,fearful,1,sad,happy,yes,Same classification in voice.
+24-M-INDIA_1_MET.wav,happy,0.538461538,fearful,0.846153846,happy,happy,yes,Same classification in voice and content.
+25-B-GERMANY_1_MET.wav,sad,0.5,fearful,1,happy,neutral,yes,"""Neutral"" and ""sad"" are very close to each other. The student seems tired and relaxed and is speaking in a neutral way, therefore sadness is very close."
+26-B-GERMANY_1_MET.wav,calm or disgust,0.375,fearful,0.75,neutral,calm,yes,"Same classification in voice. Disgust wrongly comes from stutter, which in this case is a sign of rethinking."
+27-B-GERMANY_1_MET.wav,sad,0.625,fearful,0.875,sad,sad,yes,Same classification in content and voice.
+28-M-INDIA_1_MET.wav,calm,0.714285714,fearful,0.857142857,sad,sad,yes,"""Calm"" and ""sad"" are very close each other."
+29-M-INDIA_1_MET.wav,fearful or sad,0.4,fearful,0.8,happy,calm,no,No sign of fear could be recognized and sadness is wrongly predicted out of calmness.
+2-B-CHILE_1_MET.wav,sad,0.5,fearful,0.733333333,fearful,angry,yes,Sadness can be recognized.
+30-B-NEPAL_1_MET.wav,angry,0.454545455,fearful,0.909090909,neutral,neutral,no,No sign of anger could be recognized.
+3-B-NIGERIA_1_MET.wav,calm,0.588235294,fearful,0.588235294,happy,calm,yes,Same classification as in voice.
+4-M-INDIA_1_MET.wav,angry,0.363636364,fearful,1,happy,happy,yes,"Although she is happy about the teaching methodology from the university, she talks in a defensive tone, which can be recognized as angry."
+5-M-INDIA_1_MET.wav,happy or sad,0.315789474,fearful,0.736842105,sad,sad,no,"Prediction is not clear, since happiness and sadness are the complete opposite feelings."
+6-B-GERMANY_1_MET.wav,angry or happy,0.3,fearful,0.8,happy,happy,yes,"Happiness could be recognized, however, no sign of anger."
+7-B-PAKISTAN_1_MET.wav,angry,0.75,fearful,0.9,happy,happy,no,No sign of anger could be recognized.
+8-M-NEPAL_1_MET.wav,disgust or fearful or happy or surprised,0.25,fearful,1,calm,calm,no,No clear prediction.
+9-M-INDIA_1_MET.wav,happy,0.333333333,fearful,0.916666667,sad,sad,no,No sign of happiness could be recognized.

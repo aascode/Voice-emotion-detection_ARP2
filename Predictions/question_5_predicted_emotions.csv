@@ -1,0 +1,30 @@
+,rf_strongest_emotion,rf_strongness,svm_strongest_emotion,svm_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_5_EVA.wav,angry,0.5,fearful,0.8,disgust,angry
+10-B-GERMANY_5_EVA.wav,angry or happy,0.2857142857142857,fearful,0.9523809523809523,sad,happy
+11-B-GERMANY_5_EVA.wav,calm,0.8333333333333334,fearful,1.0,sad,calm
+12-B-GERMANY_5_EVA.wav,disgust,0.625,fearful,1.0,neutral,calm
+13-M-INDIA_5_EVA.wav,angry or sad,0.2962962962962963,fearful,0.8518518518518519,neutral,neutral
+14-M-INDIA_5_EVA.wav,angry,0.6875,fearful,1.0,happy,angry
+15-M-INDIA_5_EVA.wav,fearful,0.5,fearful,1.0,happy,neutral
+17-M-COLOMBIA_5_EVA.wav,angry,0.5517241379310345,fearful,1.0,happy,neutral
+18-B-GERMANY_5_EVA.wav,fearful or sad,0.4,fearful,0.8,angry,angry
+19-B-GERMANY_5_EVA.wav,fearful or sad,0.4,fearful,0.6,angry,angry
+2-B-CHILE_5_EVA.wav,sad,0.6666666666666666,fearful,1.0,happy,neutral
+20-B-CHINA_5_EVA.wav,calm or disgust or sad,0.3333333333333333,fearful,0.8333333333333334,neutral,neutral
+21-B-GERMANY_5_EVA.wav,angry,0.45161290322580644,fearful,0.7096774193548387,neutral,angry
+22-B-PAKISTAN_5_EVA.wav,disgust,0.2857142857142857,fearful,0.9428571428571428,neutral,neutral
+23-M-IRAN_5_EVA.wav,angry or happy,0.5,fearful,1.0,happy,sad
+24-M-INDIA_5_EVA.wav,angry,0.4666666666666667,fearful,1.0,happy,happy
+25-B-GERMANY_5_EVA.wav,fearful,0.5,fearful,1.0,happy,calm
+26-B-GERMANY_5_EVA.wav,disgust,0.6666666666666666,fearful,0.5555555555555556,surprised,calm
+27-B-GERMANY_5_EVA.wav,fearful,0.45454545454545453,fearful,1.0,happy,neutral
+28-M-INDIA_5_EVA.wav,calm,0.625,fearful,0.875,neutral,neutral
+29-M-INDIA_5_EVA.wav,fearful,0.4,fearful,0.9,calm,neutral
+3-B-NIGERIA_5_EVA.wav,disgust,0.5,fearful,0.7619047619047619,sad,happy
+30-B-NEPAL_5_EVA.wav,angry,0.875,fearful,0.75,happy,happy
+4-M-INDIA_5_EVA.wav,angry,0.5384615384615384,fearful,0.8461538461538461,sad,neutral
+5-M-INDIA_5_EVA.wav,calm or disgust or happy,0.23076923076923078,fearful,0.6923076923076923,sad,calm
+6-B-GERMANY_5_EVA.wav,angry,0.4,fearful,0.88,neutral,neutral
+7-B-PAKISTAN_5_EVA.wav,angry,0.6,fearful,0.95,sad,neutral
+8-M-NEPAL_5_EVA.wav,sad,0.24444444444444444,fearful,0.7333333333333333,surprised,neutral
+9-M-INDIA_5_EVA.wav,angry,0.7142857142857143,fearful,1.0,sad,sad

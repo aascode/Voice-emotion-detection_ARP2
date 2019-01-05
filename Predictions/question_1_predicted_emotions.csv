@@ -1,0 +1,31 @@
+File,rf_strongest_emotion,rf_strongness,svm_strongest_emotion,svm_strongness,Human_Content_Emotion,Human_Voice_Emotion
+10-B-GERMANY_1_MET.wav,happy,0.315789474,fearful,0.894736842,sad,angry
+11-B-GERMANY_1_MET.wav,calm or fearful,0.375,fearful,0.875,neutral,sad
+12-B-GERMANY_1_MET.wav,sad,0.428571429,fearful,0.857142857,disgust,sad
+13-M-INDIA_1_MET.wav,happy,0.333333333,fearful,0.875,happy,neutral
+14-M-INDIA_1_MET.wav,fearful,0.333333333,fearful,0.916666667,sad,angry
+15-M-INDIA_1_MET.wav,angry or happy,0.285714286,fearful,0.857142857,sad,angry
+16-B-GERMANY_1_MET.wav,happy or sad,0.5,fearful,1,neutral,neutral
+17-M-COLOMBIA_1_MET.wav,angry or disgust,0.3,fearful,0.95,neutral,neutral
+18-B-GERMANY_1_MET.wav,angry,0.368421053,fearful,0.947368421,fearful,angry
+19-B-GERMANY_1_MET.wav,sad,0.666666667,fearful,1,happy,neutral
+1-M-INDIA_1_MET.wav,happy,0.545454545,fearful,0.772727273,happy,calm
+20-B-CHINA_1_MET.wav,calm,0.272727273,fearful,0.818181818,neutral,sad
+21-B-GERMANY_1_MET.wav,disgust or sad,0.225806452,fearful,0.741935484,neutral,neutral
+22-B-PAKISTAN_1_MET.wav,sad,0.357142857,fearful,0.785714286,sad,neutral
+23-M-IRAN_1_MET.wav,happy,0.375,fearful,1,sad,happy
+24-M-INDIA_1_MET.wav,happy,0.538461538,fearful,0.846153846,happy,happy
+25-B-GERMANY_1_MET.wav,sad,0.5,fearful,1,happy,neutral
+26-B-GERMANY_1_MET.wav,calm or disgust,0.375,fearful,0.75,neutral,calm
+27-B-GERMANY_1_MET.wav,sad,0.625,fearful,0.875,sad,sad
+28-M-INDIA_1_MET.wav,calm,0.714285714,fearful,0.857142857,sad,sad
+29-M-INDIA_1_MET.wav,fearful or sad,0.4,fearful,0.8,happy,calm
+2-B-CHILE_1_MET.wav,sad,0.5,fearful,0.733333333,fearful,angry
+30-B-NEPAL_1_MET.wav,angry,0.454545455,fearful,0.909090909,neutral,neutral
+3-B-NIGERIA_1_MET.wav,calm,0.588235294,fearful,0.588235294,happy,calm
+4-M-INDIA_1_MET.wav,angry,0.363636364,fearful,1,happy,happy
+5-M-INDIA_1_MET.wav,happy or sad,0.315789474,fearful,0.736842105,sad,sad
+6-B-GERMANY_1_MET.wav,angry or happy,0.3,fearful,0.8,happy,happy
+7-B-PAKISTAN_1_MET.wav,angry,0.75,fearful,0.9,happy,happy
+8-M-NEPAL_1_MET.wav,disgust or fearful or happy or surprised,0.25,fearful,1,calm,calm
+9-M-INDIA_1_MET.wav,happy,0.333333333,fearful,0.916666667,sad,sad

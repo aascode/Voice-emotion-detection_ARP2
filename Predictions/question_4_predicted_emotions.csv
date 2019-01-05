@@ -1,0 +1,28 @@
+,rf_strongest_emotion,rf_strongness,svm_strongest_emotion,svm_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_4_QUA.wav,happy,0.4375,fearful,0.75,neutral,neutral
+10-B-GERMANY_4_QUA.wav,fearful,0.5,fearful,1.0,happy,neutral
+11-B-GERMANY_4_QUA.wav,calm,0.8571428571428571,fearful,1.0,neutral,calm
+12-B-GERMANY_4_QUA.wav,disgust,0.4,fearful or sad,0.5,happy,calm
+13-M-INDIA_4_QUA.wav,fearful,0.2413793103448276,fearful,0.9655172413793104,sad,angry
+14-M-INDIA_4_QUA.wav,fearful,0.4,fearful,0.8,sad,angry
+15-M-INDIA_4_QUA.wav,fearful,0.75,fearful,1.0,angry,neutral
+17-M-COLOMBIA_4_QUA.wav,disgust,0.42105263157894735,fearful,0.9473684210526315,happy,neutral
+18-B-GERMANY_4_QUA.wav,fearful,0.5,fearful,1.0,angry,angry
+19-B-GERMANY_4_QUA.wav,calm or fearful,0.4,fearful,0.8666666666666667,angry,angry
+2-B-CHILE_4_QUA.wav,fearful,0.375,fearful,0.9583333333333334,happy,neutral
+20-B-CHINA_4_QUA.wav,calm or disgust,0.3,fearful,0.7,neutral,calm
+21-B-GERMANY_4_QUA.wav,angry,0.3333333333333333,fearful,0.8666666666666667,happy,happy
+22-B-PAKISTAN_4_QUA.wav,disgust,0.6153846153846154,fearful,1.0,happy,calm
+23-M-IRAN_4_QUA.wav,sad,0.4,fearful,1.0,happy,happy
+24-M-INDIA_4_QUA.wav,fearful,0.4166666666666667,fearful,0.9166666666666666,happy,happy
+25-B-GERMANY_4_QUA.wav,fearful,0.5714285714285714,fearful,1.0,happy,calm
+26-B-GERMANY_4_QUA.wav,disgust,0.5,fearful,1.0,happy,calm
+27-B-GERMANY_4_QUA.wav,fearful or sad,0.5,fearful,1.0,happy,neutral
+28-M-INDIA_4_QUA.wav,fearful,0.42857142857142855,fearful,1.0,neutral,neutral
+3-B-NIGERIA_4_QUA.wav,disgust,0.5238095238095238,fearful,0.7619047619047619,neutral,happy
+4-M-INDIA_4_QUA.wav,fearful,0.36363636363636365,fearful,0.9090909090909091,sad,neutral
+5-M-INDIA_4_QUA.wav,sad,0.875,fearful,0.75,neutral,calm
+6-B-GERMANY_4_QUA.wav,happy,0.42857142857142855,fearful,0.8571428571428571,neutral,neutral
+7-B-PAKISTAN_4_QUA.wav,angry or disgust,0.4166666666666667,fearful,1.0,happy,happy
+8-M-NEPAL_4_QUA.wav,disgust,0.7,fearful,0.7,happy,neutral
+9-M-INDIA_4_QUA.wav,angry,0.5238095238095238,fearful,1.0,neutral,sad

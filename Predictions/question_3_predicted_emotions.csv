@@ -1,0 +1,28 @@
+,rf_strongest_emotion,rf_strongness,svm_strongest_emotion,svm_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_3_TIM.wav,angry,0.5,fearful,0.9166666666666666,happy,neutral
+10-B-GERMANY_3_TIM.wav,happy,0.38461538461538464,fearful,0.8461538461538461,neutral,happy
+11-B-GERMANY_3_TIM.wav,fearful,1.0,fearful,1.0,happy,happy
+12-B-GERMANY_3_TIM.wav,sad,0.6,fearful,0.8,neutral,calm
+13-M-INDIA_3_TIM.wav,sad,0.4117647058823529,fearful,0.8235294117647058,neutral,neutral
+14-M-INDIA_3_TIM.wav,fearful,0.6666666666666666,fearful,0.9166666666666666,happy,neutral
+15-M-INDIA_3_TIM.wav,fearful,0.5,fearful,0.875,happy,calm
+17-M-COLOMBIA_3_TIM.wav,disgust,0.4117647058823529,fearful,0.9411764705882353,neutral,neutral
+18-B-GERMANY_3_TIM.wav,fearful or sad,0.3333333333333333,fearful,0.8333333333333334,neutral,neutral
+19-B-GERMANY_3_TIM.wav,fearful,1.0,fearful,1.0,sad,happy
+2-B-CHILE_3_TIM.wav,calm or fearful,0.5,fearful,1.0,sad,calm
+20-B-CHINA_3_TIM.wav,fearful or sad,0.2727272727272727,fearful,0.7272727272727273,angry,calm
+21-B-GERMANY_3_TIM.wav,fearful,0.5833333333333334,fearful,0.9166666666666666,sad,happy
+22-B-PAKISTAN_3_TIM.wav,fearful,0.7272727272727273,fearful,0.9090909090909091,neutral,calm
+23-M-IRAN_3_TIM.wav,angry,0.6666666666666666,fearful,1.0,angry,angry
+24-M-INDIA_3_TIM.wav,fearful,0.6,fearful,0.9,neutral,happy
+25-B-GERMANY_3_TIM.wav,fearful,0.5,fearful,1.0,happy,calm
+26-B-GERMANY_3_TIM.wav,calm,1.0,fearful or sad,0.5,happy,calm
+27-B-GERMANY_3_TIM.wav,fearful,0.5,fearful,0.9166666666666666,neutral,calm
+3-B-NIGERIA_3_TIM.wav,disgust,0.4782608695652174,fearful,0.6086956521739131,happy,calm
+30-B-NEPAL_3_TIM.wav,angry,0.5384615384615384,fearful,0.8461538461538461,happy,neutral
+4-M-INDIA_3_TIM.wav,happy or sad,0.2727272727272727,fearful,1.0,sad,angry
+5-M-INDIA_3_TIM.wav,fearful,0.47619047619047616,fearful,0.6666666666666666,sad,sad
+6-B-GERMANY_3_TIM.wav,calm or fearful or sad,0.25,fearful,1.0,sad,sad
+7-B-PAKISTAN_3_TIM.wav,angry,0.5384615384615384,fearful,0.9230769230769231,happy,happy
+8-M-NEPAL_3_TIM.wav,sad,0.4666666666666667,sad,0.5333333333333333,happy,calm
+9-M-INDIA_3_TIM.wav,angry,0.4444444444444444,fearful,0.7777777777777778,neutral,calm
