@@ -1,0 +1,28 @@
+,rf_strongest_emotion,rf_strongness,svc_strongest_emotion,svc_strongness,lr_strongest_emotion,lr_strongness,knn_strongest_emotion,knn_strongness,nb_strongest_emotion,nb_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_3_TIM.wav,angry,0.41333333333333333,fearful,0.9166666666666666,calm,0.75,angry,0.4166666666666667,angry,0.4166666666666667,happy,neutral
+10-B-GERMANY_3_TIM.wav,angry,0.2276923076923077,fearful,0.8461538461538461,calm,0.7692307692307693,angry,0.38461538461538464,disgust,0.38461538461538464,neutral,happy
+11-B-GERMANY_3_TIM.wav,calm,0.47,fearful,1.0,calm,1.0,calm or sad,0.5,calm or disgust,0.5,happy,happy
+12-B-GERMANY_3_TIM.wav,sad,0.432,fearful,0.8,calm,0.8,angry or calm,0.4,sad,0.6,neutral,calm
+13-M-INDIA_3_TIM.wav,sad,0.30470588235294116,fearful,0.8235294117647058,calm,0.8235294117647058,disgust,0.29411764705882354,disgust,0.5294117647058824,neutral,neutral
+14-M-INDIA_3_TIM.wav,fearful,0.43833333333333335,fearful,0.9166666666666666,calm,0.6666666666666666,angry,0.4166666666666667,disgust,0.6666666666666666,happy,neutral
+15-M-INDIA_3_TIM.wav,calm,0.2825,fearful,0.875,calm,0.625,disgust,0.5,disgust,0.75,happy,calm
+17-M-COLOMBIA_3_TIM.wav,disgust,0.5105882352941177,fearful,0.9411764705882353,sad,0.5294117647058824,disgust,0.4117647058823529,disgust,0.7058823529411765,neutral,neutral
+18-B-GERMANY_3_TIM.wav,fearful,0.29333333333333333,fearful,0.8333333333333334,calm or sad,0.5,happy,0.5,calm or sad,0.3333333333333333,neutral,neutral
+19-B-GERMANY_3_TIM.wav,fearful,0.48,fearful,1.0,calm,0.5454545454545454,calm,0.36363636363636365,sad,0.45454545454545453,sad,happy
+2-B-CHILE_3_TIM.wav,calm,0.375,fearful,1.0,calm,1.0,calm,0.5,disgust,0.5,sad,calm
+20-B-CHINA_3_TIM.wav,sad,0.2909090909090909,fearful,0.7272727272727273,calm,0.7272727272727273,angry or calm or happy,0.2727272727272727,disgust,0.5454545454545454,angry,calm
+21-B-GERMANY_3_TIM.wav,fearful,0.39,fearful,0.9166666666666666,calm,0.6666666666666666,calm,0.3333333333333333,disgust,0.5833333333333334,sad,happy
+22-B-PAKISTAN_3_TIM.wav,fearful,0.3690909090909091,fearful,0.9090909090909091,calm,0.7272727272727273,calm,0.7272727272727273,sad,0.45454545454545453,neutral,calm
+23-M-IRAN_3_TIM.wav,angry,0.3333333333333333,fearful,1.0,calm,1.0,disgust,0.6666666666666666,angry or fearful or sad,0.3333333333333333,angry,angry
+24-M-INDIA_3_TIM.wav,fearful,0.394,fearful,0.9,calm,0.7,happy,0.4,disgust,0.5,neutral,happy
+25-B-GERMANY_3_TIM.wav,calm,0.394,fearful,1.0,calm,0.9,calm,0.5,sad,0.4,happy,calm
+26-B-GERMANY_3_TIM.wav,calm,0.6566666666666666,fearful or sad,0.5,calm,0.8333333333333334,calm,0.6666666666666666,sad,0.6666666666666666,happy,calm
+27-B-GERMANY_3_TIM.wav,fearful,0.4033333333333333,fearful,0.9166666666666666,calm,1.0,angry or calm or sad,0.25,disgust,0.5,neutral,calm
+3-B-NIGERIA_3_TIM.wav,disgust,0.4373913043478261,fearful,0.6086956521739131,calm,0.5652173913043478,calm,0.391304347826087,disgust,0.8695652173913043,happy,calm
+30-B-NEPAL_3_TIM.wav,angry,0.5615384615384615,fearful,0.8461538461538461,calm,0.4230769230769231,disgust,0.5,disgust,0.7692307692307693,happy,neutral
+4-M-INDIA_3_TIM.wav,angry,0.5254545454545455,fearful,1.0,calm,0.7272727272727273,angry,0.36363636363636365,angry,0.5454545454545454,sad,angry
+5-M-INDIA_3_TIM.wav,calm,0.3076190476190476,fearful,0.6666666666666666,calm,0.7619047619047619,calm,0.42857142857142855,disgust,0.6666666666666666,sad,sad
+6-B-GERMANY_3_TIM.wav,angry,0.3375,fearful,1.0,calm,0.625,angry,0.5,sad,0.5,sad,sad
+7-B-PAKISTAN_3_TIM.wav,angry,0.5292307692307693,fearful,0.9230769230769231,angry,0.38461538461538464,angry,0.5384615384615384,disgust,0.9230769230769231,happy,happy
+8-M-NEPAL_3_TIM.wav,sad,0.30266666666666664,sad,0.5333333333333333,calm,0.7333333333333333,disgust,0.4666666666666667,disgust,0.8666666666666667,happy,calm
+9-M-INDIA_3_TIM.wav,angry,0.6088888888888889,fearful,0.7777777777777778,calm,0.5,angry,0.6111111111111112,angry or disgust,0.4444444444444444,neutral,calm

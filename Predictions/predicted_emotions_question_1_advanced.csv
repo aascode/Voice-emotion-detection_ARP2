@@ -1,0 +1,31 @@
+,rf_strongest_emotion,rf_strongness,svc_strongest_emotion,svc_strongness,lr_strongest_emotion,lr_strongness,knn_strongest_emotion,knn_strongness,nb_strongest_emotion,nb_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_1_MET.wav,angry,0.33181818181818185,fearful,0.7727272727272727,calm,0.7272727272727273,angry,0.5,angry,0.36363636363636365,happy,calm
+10-B-GERMANY_1_MET.wav,fearful,0.2536842105263158,fearful,0.8947368421052632,calm,0.8421052631578947,happy,0.3157894736842105,fearful,0.3684210526315789,sad,angry
+11-B-GERMANY_1_MET.wav,fearful,0.4175,fearful,0.875,calm,0.875,calm,0.75,sad,0.625,neutral,sad
+12-B-GERMANY_1_MET.wav,sad,0.36142857142857143,fearful,0.8571428571428571,calm,0.8571428571428571,calm,0.35714285714285715,disgust,0.7142857142857143,disgust,sad
+13-M-INDIA_1_MET.wav,happy,0.265,fearful,0.875,calm,0.7916666666666666,happy,0.3333333333333333,fearful,0.3333333333333333,happy,neutral
+14-M-INDIA_1_MET.wav,fearful,0.41333333333333333,fearful,0.9166666666666666,calm,0.6666666666666666,angry or calm,0.3333333333333333,disgust,0.5833333333333334,sad,angry
+15-M-INDIA_1_MET.wav,fearful,0.33,fearful,0.8571428571428571,calm,0.5714285714285714,happy,0.35714285714285715,disgust,0.5,sad,angry
+16-B-GERMANY_1_MET.wav,sad,0.375,fearful,1.0,sad,0.5,angry,0.5,disgust,0.75,neutral,neutral
+17-M-COLOMBIA_1_MET.wav,angry,0.344,fearful,0.95,calm,0.55,angry,0.35,angry,0.45,neutral,neutral
+18-B-GERMANY_1_MET.wav,angry,0.4231578947368421,fearful,0.9473684210526315,calm,0.8421052631578947,angry or disgust,0.3157894736842105,sad,0.3684210526315789,fearful,angry
+19-B-GERMANY_1_MET.wav,fearful,0.4266666666666667,fearful,1.0,calm,0.5,happy,0.3333333333333333,disgust or fearful,0.3333333333333333,happy,neutral
+2-B-CHILE_1_MET.wav,sad,0.30733333333333335,fearful,0.7333333333333333,calm,0.6,calm or sad,0.26666666666666666,disgust,0.8,fearful,angry
+20-B-CHINA_1_MET.wav,calm,0.2581818181818182,fearful,0.8181818181818182,calm,0.5909090909090909,calm,0.45454545454545453,disgust,0.45454545454545453,neutral,sad
+21-B-GERMANY_1_MET.wav,disgust,0.24451612903225806,fearful,0.7419354838709677,calm,0.5806451612903226,calm or disgust,0.22580645161290322,disgust,0.7741935483870968,neutral,neutral
+22-B-PAKISTAN_1_MET.wav,sad,0.3314285714285714,fearful,0.7857142857142857,calm,0.5714285714285714,calm,0.5714285714285714,disgust,0.5714285714285714,sad,neutral
+23-M-IRAN_1_MET.wav,fearful,0.27625,fearful,1.0,calm,0.625,disgust,0.3125,disgust,0.4375,sad,happy
+24-M-INDIA_1_MET.wav,fearful,0.37538461538461537,fearful,0.8461538461538461,calm,0.7692307692307693,happy,0.46153846153846156,disgust,0.5384615384615384,happy,happy
+25-B-GERMANY_1_MET.wav,fearful,0.415,fearful,1.0,calm,1.0,happy,0.75,sad,0.5,happy,neutral
+26-B-GERMANY_1_MET.wav,calm,0.3175,fearful,0.75,calm,0.75,angry or calm,0.375,disgust,0.75,neutral,calm
+27-B-GERMANY_1_MET.wav,sad,0.28,fearful,0.875,calm,0.75,angry,0.5,angry or calm or disgust or fearful,0.25,sad,sad
+28-M-INDIA_1_MET.wav,calm,0.4657142857142857,fearful,0.8571428571428571,calm,0.7142857142857143,calm or sad,0.42857142857142855,sad,0.42857142857142855,sad,sad
+29-M-INDIA_1_MET.wav,sad,0.364,fearful,0.8,sad,0.6,calm,0.4,disgust or sad,0.4,happy,calm
+3-B-NIGERIA_1_MET.wav,calm,0.5035294117647059,fearful,0.5882352941176471,calm,0.6470588235294118,calm,0.47058823529411764,disgust,0.8823529411764706,happy,calm
+30-B-NEPAL_1_MET.wav,angry,0.4218181818181818,fearful,0.9090909090909091,angry,0.36363636363636365,angry,0.36363636363636365,disgust,0.7272727272727273,neutral,neutral
+4-M-INDIA_1_MET.wav,fearful,0.32181818181818184,fearful,1.0,calm,0.6363636363636364,angry,0.36363636363636365,fearful,0.45454545454545453,happy,happy
+5-M-INDIA_1_MET.wav,calm,0.23157894736842105,fearful,0.7368421052631579,calm,0.631578947368421,angry,0.47368421052631576,angry,0.3157894736842105,sad,sad
+6-B-GERMANY_1_MET.wav,angry,0.29,fearful,0.8,calm,0.5,angry or calm,0.4,sad,0.4,happy,happy
+7-B-PAKISTAN_1_MET.wav,angry,0.637,fearful,0.9,angry,0.5,angry,0.45,disgust,0.65,happy,happy
+8-M-NEPAL_1_MET.wav,fearful,0.335,fearful,1.0,calm,0.5,sad,0.5,disgust,0.5,calm,calm
+9-M-INDIA_1_MET.wav,angry,0.36666666666666664,fearful,0.9166666666666666,calm,0.75,disgust,0.5833333333333334,disgust,0.4166666666666667,sad,sad

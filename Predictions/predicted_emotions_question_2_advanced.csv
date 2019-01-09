@@ -1,0 +1,29 @@
+,rf_strongest_emotion,rf_strongness,svc_strongest_emotion,svc_strongness,lr_strongest_emotion,lr_strongness,knn_strongest_emotion,knn_strongness,nb_strongest_emotion,nb_strongness,Human_Content_Emotion,Human_Voice_Emotion
+1-M-INDIA_2_CUR.wav,angry,0.395,fearful,0.8333333333333334,calm,0.5833333333333334,angry or disgust or happy,0.3333333333333333,angry,0.6666666666666666,happy,calm
+10-B-GERMANY_2_CUR.wav,fearful,0.2909090909090909,fearful,0.9090909090909091,calm,1.0,disgust,0.5454545454545454,fearful or sad,0.36363636363636365,sad,sad
+11-B-GERMANY_2_CUR.wav,calm,0.392,fearful,1.0,calm,0.8,calm,1.0,sad,0.6,sad,sad
+12-B-GERMANY_2_CUR.wav,sad,0.35375,fearful,0.875,calm,0.8125,calm,0.5625,disgust,0.625,sad,neutral
+13-M-INDIA_2_CUR.wav,happy,0.32166666666666666,fearful,0.8333333333333334,calm,0.6666666666666666,disgust or fearful or happy,0.25,sad,0.5,happy,happy
+14-M-INDIA_2_CUR.wav,fearful,0.30695652173913046,fearful,0.8695652173913043,calm,0.5652173913043478,happy,0.5217391304347826,disgust,0.5652173913043478,happy,angry
+15-M-INDIA_2_CUR.wav,calm,0.352,fearful,1.0,calm,0.6,disgust,0.6,disgust,0.8,happy,happy
+17-M-COLOMBIA_2_CUR.wav,angry,0.4088888888888889,fearful,1.0,calm,0.5,angry,0.3888888888888889,angry,0.5555555555555556,neutral,neutral
+18-B-GERMANY_2_CUR.wav,angry,0.32,fearful,1.0,calm,1.0,angry or calm or happy,0.25,sad,0.5,fearful,angry
+19-B-GERMANY_2_CUR.wav,fearful,0.245,fearful,0.875,calm,0.75,angry,0.5,fearful,0.4375,neutral,sad
+2-B-CHILE_2_CUR.wav,calm,0.3953846153846154,fearful,0.9230769230769231,calm,0.6153846153846154,calm,0.38461538461538464,disgust,0.6153846153846154,angry,angry
+20-B-CHINA_2_CUR.wav,calm,0.4294117647058823,fearful,0.6470588235294118,calm,0.47058823529411764,calm,0.5882352941176471,disgust,0.6470588235294118,sad,sad
+21-B-GERMANY_2_CUR.wav,disgust,0.2613333333333333,fearful,0.7333333333333333,calm,0.5333333333333333,sad,0.3333333333333333,disgust,0.6,neutral,sad
+22-B-PAKISTAN_2_CUR.wav,fearful,0.36470588235294116,fearful,0.9411764705882353,calm,0.9411764705882353,happy,0.29411764705882354,disgust,0.7058823529411765,neutral,angry
+23-M-IRAN_2_CUR.wav,happy,0.33111111111111113,fearful,0.8888888888888888,calm,0.7777777777777778,disgust or happy,0.3333333333333333,sad,0.4444444444444444,happy,happy
+24-M-INDIA_2_CUR.wav,fearful,0.45111111111111113,fearful,1.0,calm,0.5555555555555556,happy,0.5555555555555556,disgust or sad,0.3333333333333333,happy,neutral
+25-B-GERMANY_2_CUR.wav,fearful,0.4577777777777778,fearful,1.0,calm,0.7777777777777778,calm,0.4444444444444444,fearful or sad,0.3333333333333333,sad,neutral
+26-B-GERMANY_2_CUR.wav,calm,0.29,fearful or sad,0.5,sad,0.5,calm or sad,0.5,disgust,0.5,sad,calm
+27-B-GERMANY_2_CUR.wav,fearful,0.306,fearful,0.9,calm,0.7,sad,0.3,disgust,0.6,happy,calm
+28-M-INDIA_2_CUR.wav,calm,0.47,fearful,1.0,calm or sad,0.5,calm or sad,0.5,calm,1.0,happy,neutral
+3-B-NIGERIA_2_CUR.wav,calm,0.472,fearful,0.6,calm,0.5,calm,0.4,disgust,0.7,happy,calm
+30-B-NEPAL_2_CUR.wav,angry,0.5844444444444444,fearful,0.9444444444444444,angry or calm,0.3888888888888889,angry,0.6111111111111112,disgust,0.6111111111111112,angry,angry
+4-M-INDIA_2_CUR.wav,angry,0.26222222222222225,fearful,1.0,calm,0.6666666666666666,angry,0.4444444444444444,fearful,0.3333333333333333,happy,happy
+5-M-INDIA_2_CUR.wav,happy,0.24333333333333335,fearful,0.8888888888888888,calm,0.5555555555555556,angry,0.4444444444444444,disgust,0.6111111111111112,angry,sad
+6-B-GERMANY_2_CUR.wav,angry,0.29764705882352943,fearful,0.8235294117647058,calm,0.7058823529411765,angry,0.5882352941176471,disgust,0.5882352941176471,happy,neutral
+7-B-PAKISTAN_2_CUR.wav,fearful,0.24571428571428572,fearful,0.8316326530612245,calm,0.6683673469387755,disgust,0.3520408163265306,disgust,0.6173469387755102,neutral,happy
+8-M-NEPAL_2_CUR.wav,fearful,0.31555555555555553,fearful,0.7777777777777778,calm,0.7777777777777778,disgust,0.4166666666666667,disgust,0.6111111111111112,sad,neutral
+9-M-INDIA_2_CUR.wav,angry,0.4461538461538462,fearful,0.8461538461538461,calm,0.38461538461538464,disgust,0.46153846153846156,disgust,0.4230769230769231,sad,angry
