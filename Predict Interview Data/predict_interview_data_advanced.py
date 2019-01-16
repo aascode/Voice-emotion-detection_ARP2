@@ -34,7 +34,7 @@ def find_strongest_emotion(y_interview_pred, df_interview_all):
     emotion_count= all_single_emotions.groupby('folder')['predicted emotion'].value_counts().unstack().fillna(0)
     
     strongest_emotion = []
-    strongness = []
+    strength = []
     folders = []
     
     # This double for loop will loop through every emotion and look for the one, for which the count is the highest
@@ -43,7 +43,6 @@ def find_strongest_emotion(y_interview_pred, df_interview_all):
         total = 0
         max_val = 0
         emotion = ''
-        total = 0
         
         for j in range(len(emotion_count.columns)):
             total += emotion_count.iloc[i,j]
@@ -54,15 +53,15 @@ def find_strongest_emotion(y_interview_pred, df_interview_all):
                 emotion = emotion + ' or ' + emotion_count.columns[j]
             
         strongest_emotion.append(emotion)
-        strongness.append(max_val / total)
+        strength.append(max_val / total)
         folders.append(emotion_count.index[i])
                         
     del total, i, j, max_val, emotion
-    return folders, strongest_emotion, strongness
+    return folders, strongest_emotion, strength
 
 
 
-
+# Repeat interview predictions for all of the five answers
 for question_no in range(1,6):
 
     # Open the actors training ARFF file containing the features from audio files
@@ -71,8 +70,7 @@ for question_no in range(1,6):
         
     df_features.set_index('name@STRING',inplace=True,drop=True)
     
-    # Open the annotation CSV file
-    
+    # Open the actors annotation CSV file
     df_emotions = pd.read_csv('annotation.csv', sep=';')
     df_emotions.set_index('filenames',inplace=True,drop=True)
     
@@ -114,7 +112,7 @@ for question_no in range(1,6):
         
     del i, i_value    
     
-    
+    # Merge the emotion classification subfiles list with their belonging to one of the interviewees
     df_interview_subfiles_emotions = pd.merge(left= df_interview_emotions, right= df_subfiles,
                                        left_index=False, right_index=False, 
                                        left_on= 'Answer_File', right_on= 'folder',
@@ -150,8 +148,8 @@ for question_no in range(1,6):
     knn_interview_pred = []
     nb_interview_pred = []
     
-    
-    for i in range(50):
+    # Repeat model fitting and prediction for 50 times to find most frequent results in the end
+    for i in range(1):
         
         # Fitting Random Forest Classification to the Training set
         
@@ -159,7 +157,7 @@ for question_no in range(1,6):
         rf_classifier.fit(X, y)
         
         # Fit Kernel SVM to the Training set
-        svc_classifier = SVC(kernel = 'rbf')
+        svc_classifier = SVC(C=0.1, kernel='linear', degree=3, gamma=0.002222222, coef0=0.0, shrinking=True, probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=-1, decision_function_shape='ovr', random_state=None)
         svc_classifier.fit(X, y)
         
         # Fit Logistic Regression to the Training Set
@@ -180,38 +178,26 @@ for question_no in range(1,6):
         knn_interview_pred.append(knn_classifier.predict(X_interviews))
         nb_interview_pred.append(nb_classifier.predict(X_interviews))
     
-    #del X, y, df_all
-    
     
     
     # Count how many times a emotion has been found for each answer in random forest classifier
-    
-    rf_folders, rf_strongest_emotion, rf_strongness = find_strongest_emotion(rf_interview_pred, df_interview_all)
-    svc_folders, svc_strongest_emotion, svc_strongness = find_strongest_emotion(svc_interview_pred, df_interview_all)
-    lr_folders, lr_strongest_emotion, lr_strongness = find_strongest_emotion(lr_interview_pred, df_interview_all)
-    knn_folders, knn_strongest_emotion, knn_strongness = find_strongest_emotion(knn_interview_pred, df_interview_all)
-    nb_folders, nb_strongest_emotion, nb_strongness = find_strongest_emotion(nb_interview_pred, df_interview_all)
+    rf_folders, rf_strongest_emotion, rf_strength = find_strongest_emotion(rf_interview_pred, df_interview_all)
+    svc_folders, svc_strongest_emotion, svc_strength = find_strongest_emotion(svc_interview_pred, df_interview_all)
+    lr_folders, lr_strongest_emotion, lr_strength = find_strongest_emotion(lr_interview_pred, df_interview_all)
+    knn_folders, knn_strongest_emotion, knn_strength = find_strongest_emotion(knn_interview_pred, df_interview_all)
+    nb_folders, nb_strongest_emotion, nb_strength = find_strongest_emotion(nb_interview_pred, df_interview_all)
     
     
     # create human readable table for our analysis      
-    pred_emotions = pd.DataFrame({'rf_strongest_emotion' : rf_strongest_emotion, 'rf_strongness': rf_strongness}, index = rf_folders)
-    del rf_strongness, rf_strongest_emotion
-    pred_emotions = pred_emotions.join(pd.DataFrame({'svc_strongest_emotion' : svc_strongest_emotion, 'svc_strongness': svc_strongness}, index = svc_folders))
-    pred_emotions = pred_emotions.join(pd.DataFrame({'lr_strongest_emotion' : lr_strongest_emotion, 'lr_strongness': lr_strongness}, index = lr_folders))
-    pred_emotions = pred_emotions.join(pd.DataFrame({'knn_strongest_emotion' : knn_strongest_emotion, 'knn_strongness': knn_strongness}, index = knn_folders))
-    pred_emotions = pred_emotions.join(pd.DataFrame({'nb_strongest_emotion' : nb_strongest_emotion, 'nb_strongness': nb_strongness}, index = nb_folders))
+    pred_emotions = pd.DataFrame({'rf_strongest_emotion' : rf_strongest_emotion, 'rf_strength': rf_strength}, index = rf_folders)
+    del rf_strength, rf_strongest_emotion
+    pred_emotions = pred_emotions.join(pd.DataFrame({'svc_strongest_emotion' : svc_strongest_emotion, 'svc_strength': svc_strength}, index = svc_folders))
+    pred_emotions = pred_emotions.join(pd.DataFrame({'lr_strongest_emotion' : lr_strongest_emotion, 'lr_strength': lr_strength}, index = lr_folders))
+    pred_emotions = pred_emotions.join(pd.DataFrame({'knn_strongest_emotion' : knn_strongest_emotion, 'knn_strength': knn_strength}, index = knn_folders))
+    pred_emotions = pred_emotions.join(pd.DataFrame({'nb_strongest_emotion' : nb_strongest_emotion, 'nb_strength': nb_strength}, index = nb_folders))
     pred_emotions = pred_emotions.join(pd.DataFrame({'Human_Content_Emotion':df_interview_emotions['Human_Content_Emotion'],'Human_Voice_Emotion': df_interview_emotions['Human_Voice_Emotion']},index=df_interview_emotions.index))
     
     
     #Calculate accuracy
     from sklearn.metrics import accuracy_score
-    #Predict content based rf results
-    #print('rf_accuracy against content annotation: ' + str(accuracy_score(pred_emotions['Human_Content_Emotion'],pred_emotions['rf_strongest_emotion'])))
-    #Predict voice based rf results
-    #print('rf_accuracy against voice annotation: ' + str(accuracy_score(pred_emotions['Human_Voice_Emotion'],pred_emotions['rf_strongest_emotion'])))
-    #Predict content based rf results
-    #print('svm_accuracy against content annotation: ' + str(accuracy_score(pred_emotions['Human_Content_Emotion'],pred_emotions['svm_strongest_emotion'])))
-    #Predict voice based rf results
-    #print('svm_accuracy against voice annotation: ' + str(accuracy_score(pred_emotions['Human_Voice_Emotion'],pred_emotions['svm_strongest_emotion'])))
-    
     pred_emotions.to_csv('predicted_emotions_question_'+ str(question_no) + '_advanced.csv')

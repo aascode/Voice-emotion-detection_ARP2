@@ -1,0 +1,142 @@
+"","folder","strongest_emotion","strength"
+"1","1-M-INDIA_1_MET.wav","angry or disgust or happy",0.227272727272727
+"2","1-M-INDIA_2_CUR.wav","angry",0.416666666666667
+"3","1-M-INDIA_3_TIM.wav","disgust or fearful or happy",0.25
+"4","1-M-INDIA_4_QUA.wav","disgust",0.3125
+"5","1-M-INDIA_5_EVA.wav","angry",0.5
+"6","10-B-GERMANY_1_MET.wav","disgust",0.315789473684211
+"7","10-B-GERMANY_2_CUR.wav","disgust",0.545454545454545
+"8","10-B-GERMANY_3_TIM.wav","surprised",0.307692307692308
+"9","10-B-GERMANY_4_QUA.wav","happy",0.5
+"10","10-B-GERMANY_5_EVA.wav","happy",0.380952380952381
+"11","11-B-GERMANY_1_MET.wav","calm",0.375
+"12","11-B-GERMANY_2_CUR.wav","calm or disgust",0.4
+"13","11-B-GERMANY_3_TIM.wav","calm",0.75
+"14","11-B-GERMANY_4_QUA.wav","calm",0.428571428571429
+"15","11-B-GERMANY_5_EVA.wav","calm",0.5
+"16","12-B-GERMANY_1_MET.wav","disgust",0.571428571428571
+"17","12-B-GERMANY_2_CUR.wav","disgust",0.625
+"18","12-B-GERMANY_3_TIM.wav","calm or disgust",0.4
+"19","12-B-GERMANY_4_QUA.wav","disgust or surprised",0.3
+"20","12-B-GERMANY_5_EVA.wav","disgust",0.75
+"21","13-M-INDIA_1_MET.wav","happy",0.333333333333333
+"22","13-M-INDIA_2_CUR.wav","happy or sad",0.25
+"23","13-M-INDIA_3_TIM.wav","disgust",0.529411764705882
+"24","13-M-INDIA_4_QUA.wav","sad",0.448275862068966
+"25","13-M-INDIA_5_EVA.wav","happy",0.481481481481481
+"26","14-M-INDIA_1_MET.wav","surprised",0.416666666666667
+"27","14-M-INDIA_2_CUR.wav","surprised",0.521739130434783
+"28","14-M-INDIA_3_TIM.wav","surprised",0.583333333333333
+"29","14-M-INDIA_4_QUA.wav","surprised",0.45
+"30","14-M-INDIA_5_EVA.wav","surprised",0.4375
+"31","15-M-INDIA_1_MET.wav","calm or disgust or sad",0.214285714285714
+"32","15-M-INDIA_2_CUR.wav","calm or sad",0.4
+"33","15-M-INDIA_3_TIM.wav","sad",0.375
+"34","15-M-INDIA_4_QUA.wav","sad",0.5
+"35","15-M-INDIA_5_EVA.wav","disgust or happy or sad",0.333333333333333
+"36","16-B-GERMANY_1_MET.wav","disgust",0.75
+"37","17-M-COLOMBIA_1_MET.wav","disgust",0.5
+"38","17-M-COLOMBIA_2_CUR.wav","disgust",0.611111111111111
+"39","17-M-COLOMBIA_3_TIM.wav","disgust",0.705882352941177
+"40","17-M-COLOMBIA_4_QUA.wav","disgust",0.578947368421053
+"41","17-M-COLOMBIA_5_EVA.wav","disgust",0.517241379310345
+"42","18-B-GERMANY_1_MET.wav","angry",0.315789473684211
+"43","18-B-GERMANY_2_CUR.wav","angry or disgust or surprised",0.25
+"44","18-B-GERMANY_3_TIM.wav","surprised",0.333333333333333
+"45","18-B-GERMANY_4_QUA.wav","fearful",0.5
+"46","18-B-GERMANY_5_EVA.wav","fearful",0.4
+"47","19-B-GERMANY_1_MET.wav","fearful or sad",0.333333333333333
+"48","19-B-GERMANY_2_CUR.wav","disgust or sad",0.25
+"49","19-B-GERMANY_3_TIM.wav","fearful",0.545454545454545
+"50","19-B-GERMANY_4_QUA.wav","calm",0.4
+"51","19-B-GERMANY_5_EVA.wav","happy",0.4
+"52","2-B-CHILE_1_MET.wav","calm or disgust",0.333333333333333
+"53","2-B-CHILE_2_CUR.wav","disgust",0.461538461538462
+"54","2-B-CHILE_3_TIM.wav","calm or disgust or fearful or sad",0.25
+"55","2-B-CHILE_4_QUA.wav","disgust",0.5
+"56","2-B-CHILE_5_EVA.wav","disgust",0.5
+"57","20-B-CHINA_1_MET.wav","calm",0.318181818181818
+"58","20-B-CHINA_2_CUR.wav","disgust",0.411764705882353
+"59","20-B-CHINA_3_TIM.wav","disgust",0.454545454545455
+"60","20-B-CHINA_4_QUA.wav","calm or sad",0.3
+"61","20-B-CHINA_5_EVA.wav","calm or disgust or surprised",0.333333333333333
+"62","21-B-GERMANY_1_MET.wav","sad",0.387096774193548
+"63","21-B-GERMANY_2_CUR.wav","surprised",0.466666666666667
+"64","21-B-GERMANY_3_TIM.wav","surprised",0.333333333333333
+"65","21-B-GERMANY_4_QUA.wav","surprised",0.333333333333333
+"66","21-B-GERMANY_5_EVA.wav","surprised",0.32258064516129
+"67","22-B-PAKISTAN_1_MET.wav","calm",0.428571428571429
+"68","22-B-PAKISTAN_2_CUR.wav","surprised",0.352941176470588
+"69","22-B-PAKISTAN_3_TIM.wav","surprised",0.545454545454545
+"70","22-B-PAKISTAN_4_QUA.wav","calm or disgust",0.230769230769231
+"71","22-B-PAKISTAN_5_EVA.wav","surprised",0.342857142857143
+"72","23-M-IRAN_1_MET.wav","happy",0.4375
+"73","23-M-IRAN_2_CUR.wav","happy",0.444444444444444
+"74","23-M-IRAN_3_TIM.wav","fearful",0.666666666666667
+"75","23-M-IRAN_4_QUA.wav","angry or fearful",0.4
+"76","23-M-IRAN_5_EVA.wav","happy",0.75
+"77","24-M-INDIA_1_MET.wav","happy",0.384615384615385
+"78","24-M-INDIA_2_CUR.wav","angry",0.333333333333333
+"79","24-M-INDIA_3_TIM.wav","angry",0.4
+"80","24-M-INDIA_4_QUA.wav","angry",0.333333333333333
+"81","24-M-INDIA_5_EVA.wav","happy",0.6
+"82","25-B-GERMANY_1_MET.wav","fearful",0.5
+"83","25-B-GERMANY_2_CUR.wav","happy",0.444444444444444
+"84","25-B-GERMANY_3_TIM.wav","calm",0.5
+"85","25-B-GERMANY_4_QUA.wav","happy",0.428571428571429
+"86","25-B-GERMANY_5_EVA.wav","happy",0.5
+"87","26-B-GERMANY_1_MET.wav","disgust",0.5
+"88","26-B-GERMANY_2_CUR.wav","disgust or surprised",0.5
+"89","26-B-GERMANY_3_TIM.wav","calm",0.5
+"90","26-B-GERMANY_4_QUA.wav","calm",0.5
+"91","26-B-GERMANY_5_EVA.wav","disgust",0.555555555555556
+"92","27-B-GERMANY_1_MET.wav","calm",0.375
+"93","27-B-GERMANY_2_CUR.wav","happy",0.4
+"94","27-B-GERMANY_3_TIM.wav","surprised",0.25
+"95","27-B-GERMANY_4_QUA.wav","sad",0.5
+"96","27-B-GERMANY_5_EVA.wav","happy",0.363636363636364
+"97","28-M-INDIA_1_MET.wav","calm",0.857142857142857
+"98","28-M-INDIA_2_CUR.wav","calm",1
+"99","28-M-INDIA_4_QUA.wav","calm",0.714285714285714
+"100","28-M-INDIA_5_EVA.wav","calm or sad",0.5
+"101","29-M-INDIA_1_MET.wav","happy",0.6
+"102","29-M-INDIA_5_EVA.wav","disgust or happy or surprised",0.2
+"103","3-B-NIGERIA_1_MET.wav","calm",0.352941176470588
+"104","3-B-NIGERIA_2_CUR.wav","disgust",0.5
+"105","3-B-NIGERIA_3_TIM.wav","disgust",0.695652173913043
+"106","3-B-NIGERIA_4_QUA.wav","disgust",0.428571428571429
+"107","3-B-NIGERIA_5_EVA.wav","disgust",0.5
+"108","30-B-NEPAL_1_MET.wav","surprised",0.545454545454545
+"109","30-B-NEPAL_2_CUR.wav","angry",0.555555555555556
+"110","30-B-NEPAL_3_TIM.wav","angry or surprised",0.346153846153846
+"111","30-B-NEPAL_5_EVA.wav","surprised",0.375
+"112","4-M-INDIA_1_MET.wav","angry",0.363636363636364
+"113","4-M-INDIA_2_CUR.wav","happy or surprised",0.222222222222222
+"114","4-M-INDIA_3_TIM.wav","happy",0.727272727272727
+"115","4-M-INDIA_4_QUA.wav","happy or surprised",0.272727272727273
+"116","4-M-INDIA_5_EVA.wav","angry",0.307692307692308
+"117","5-M-INDIA_1_MET.wav","calm or happy",0.263157894736842
+"118","5-M-INDIA_2_CUR.wav","disgust or happy",0.333333333333333
+"119","5-M-INDIA_3_TIM.wav","calm",0.285714285714286
+"120","5-M-INDIA_4_QUA.wav","happy or sad",0.375
+"121","5-M-INDIA_5_EVA.wav","sad",0.307692307692308
+"122","6-B-GERMANY_1_MET.wav","surprised",0.4
+"123","6-B-GERMANY_2_CUR.wav","angry",0.470588235294118
+"124","6-B-GERMANY_3_TIM.wav","disgust",0.375
+"125","6-B-GERMANY_4_QUA.wav","angry",0.428571428571429
+"126","6-B-GERMANY_5_EVA.wav","surprised",0.32
+"127","7-B-PAKISTAN_1_MET.wav","angry",0.5
+"128","7-B-PAKISTAN_2_CUR.wav","angry",0.557692307692308
+"129","7-B-PAKISTAN_3_TIM.wav","disgust",0.615384615384615
+"130","7-B-PAKISTAN_4_QUA.wav","disgust",0.75
+"131","7-B-PAKISTAN_5_EVA.wav","angry",0.7
+"132","8-M-NEPAL_1_MET.wav","surprised",0.5
+"133","8-M-NEPAL_2_CUR.wav","surprised",0.444444444444444
+"134","8-M-NEPAL_3_TIM.wav","disgust",0.466666666666667
+"135","8-M-NEPAL_4_QUA.wav","surprised",0.5
+"136","8-M-NEPAL_5_EVA.wav","disgust",0.4
+"137","9-M-INDIA_1_MET.wav","angry",0.416666666666667
+"138","9-M-INDIA_2_CUR.wav","angry",0.423076923076923
+"139","9-M-INDIA_3_TIM.wav","angry",0.666666666666667
+"140","9-M-INDIA_4_QUA.wav","happy",0.523809523809524
+"141","9-M-INDIA_5_EVA.wav","happy",0.678571428571429

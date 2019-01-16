@@ -102,5 +102,4 @@ df_accuracies = df_accuracies.append(df_nb, ignore_index = True)
 
 df_accuracies.to_csv('accuracies_training_data.csv')
 
-
 sns.boxplot(x = 'classifier', y = 'accuracy', data = df_accuracies)
